@@ -1,46 +1,10 @@
-"""
-    NAME
-        playcards 
-
-
-    MODULE REFERENCE
-        github.com/mejongetje/playcards
-
-
-    DESCRIPTION
-        create command line card games at the drop of a hat
-
-    
-    CLASSES
-        class CustomizeDeck
-        |   create a custom deck 
-        |       (default is a 52-card French deck, but you can remove or add 
-                cards just as you please)
-        |   add custom values to cards
-        |
-        |
-        class Dealer    
-        |   deal a specified number of hands
-        |   deal a specified number of cards per hand
-        |   shuffle a deck
-        |   add a trump suit
-        |   sort hands
-        |   compare hand values
-        |
-
-
-    VERSION
-        1.0
-
-    """
-    
 import random
 
 
 class Dealer:
 
     """
-    Dealer Class - 
+    Dealer Class - Once the deck is created the dealer is brought in and picks up the deck.
     
     """
 
